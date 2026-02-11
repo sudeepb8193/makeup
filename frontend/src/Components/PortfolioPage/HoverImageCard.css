@@ -1,0 +1,49 @@
+.hover-card {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.hover-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+/* OVERLAY */
+.hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* BUTTON */
+.hover-btn {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: solid 2px white;
+ background: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* HOVER EFFECT */
+.hover-card:hover img {
+  filter: brightness(55%);
+  transform: scale(1.05);
+}
+
+.hover-card:hover .hover-overlay {
+  opacity: 1;
+}

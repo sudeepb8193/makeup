@@ -1,0 +1,76 @@
+.view-container{
+   .display-data{
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    border: solid 1px black;
+     .back-btn{ 
+        width: 100%;
+        margin: 2vh auto;
+        position: fixed;
+        button{
+            height: 5vh;
+            width: 100px;
+            border: solid 2px   #c44953;;
+            background: transparent;
+            color: white;
+            background-color: #c44953;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    }
+    .details{
+        margin-top: 10vh;
+        display: flex;
+       .img-box{
+        height: 600px;
+        width: 50%;
+        .animation{
+            height: 100%;
+            width: 100%;
+            img{
+            height: 100%;
+            width: 100%;
+        }
+        }
+       }
+       .dis-box{
+         height: 600px;
+        width: 50%;
+        border: solid 1px transparent;
+        h1{
+            margin: 2vh 1vw;
+            color: rgba(255, 255, 255, 0.746);
+        }
+        h2{
+            margin: 2vh 1vw;
+            font-size: 3rem;
+            color: #c44953;
+        }
+        p{
+            margin: 2vh 1vw;
+            font-size: large;
+            color: rgba(255, 255, 255, 0.846);
+        }
+        strong{
+            margin: 2vh 1vw;
+            font-size: larger;
+            color: white;
+            display: block;
+        }
+        button{
+            margin: 2vh 1vw;
+            height: 7vh;
+            width: 50%;
+            background: #c44953;
+            color:white;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+        }
+
+       }
+
+    }
+   }
+}

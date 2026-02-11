@@ -1,0 +1,114 @@
+.service-page{
+      height: 20vh;
+        width: 100%;
+        margin: auto;
+         margin-top: 10vh;
+        
+    .heading{
+        border: solid 1px black;
+      h1{
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 3rem;
+        color:#c44953 ;
+      }
+      h4{
+        text-align: center;
+        margin: 2vh auto;
+        font-size: x-large;
+        color: white;
+      }
+    }
+    .service-nav{
+        width: 100%;
+     
+        border: solid 1px black;
+
+        .title{
+          width: 80%;
+          margin: auto;
+            h1{
+                font-size: 3rem;
+                color: white;
+            }
+        }
+        .nav-bar{
+            height: 10vh;
+            width: 80%;
+            margin: 2vh auto;
+           display: flex;
+           justify-content: start;
+           gap: 20px;
+           align-items: center;
+           button{
+           height: 6vh;
+           width: 130px;
+           cursor: pointer;
+           border: none;
+           color: white;
+           border: solid 2px white;
+           background: transparent;
+
+           }
+           button:hover{
+           background: #c44953;
+           border: none;
+           }
+        }
+       
+    }
+     .display-details{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          row-gap: 15px;
+          .data{
+            width: 400px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px white,
+            inset 1px 1px 5px white;
+            h3{
+              text-align: center;
+              margin: 1vh auto;
+              margin-top: 2vh;
+              color: white;
+            }
+            img{
+              height: 300px;
+              width: 260px;
+              display: block;
+              margin: 2vh auto;
+            }
+            b,p{
+              margin: 1vh 1vw;
+              color: white;
+            }
+           .btn{
+            height: 10vh;
+            width: 90%;
+            border: solid 1px black;
+            margin: 2vh auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h4{
+              font-size: larger;
+              color: white;
+            }
+            button{
+              height: 6vh;
+              width: 100px;
+              border: solid 1px rgb(68, 133, 68);
+              color: white;
+              background: rgb(68, 133, 68);
+              cursor: pointer;
+            }
+            button:hover{
+               background:green;
+            }
+           }
+          }
+        }
+}

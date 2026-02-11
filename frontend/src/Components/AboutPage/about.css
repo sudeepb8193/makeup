@@ -1,0 +1,134 @@
+.about-page {
+  height: 90vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .about-info {
+    height: 90%;
+    width: 50%;
+    h4{
+      margin-top: 2rem;
+      margin-left: 1vw;
+      font-size: large;
+      text-transform: uppercase;
+      color: #c44953;
+    }
+    h1{
+        margin: 2vh 1vw;
+        font-size: 3rem;
+        color: white;
+    }
+    hr{
+        margin: 0px 1vw;
+        border: solid 2px #c44953;
+        width: 38%;
+    }
+    p{
+        margin: 2vh 1vw;
+        font-size: large;
+        text-align: justify;
+        color: white;
+    }
+    ul{
+        list-style: none;
+        margin-top: 2rem;
+        margin-left: 1vw;
+        li{
+            margin: 2vh auto;
+            font-size: large;
+            display: flex;
+            place-items: center;
+            color: white;
+            span{
+                color: #c44953;
+                margin: 0px 5px;
+            }
+        }
+    }
+    .container-1{
+        height: 19vh;
+        width: 25%;
+        background: lavender;
+        margin: 2vh 1vw;
+       strong{
+        color: #c44953;
+       }
+    }
+  }
+  .anibox{
+    height: 90%;
+    width: 30%;
+    .box-image {
+    height: 100%;
+    width: 100%;
+    box-shadow:
+      1px 1px 5px #c44953,
+      inset 1px 1px 5px #c44953;
+    border-radius: 20rem;
+    padding: 20px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 20rem;
+    }
+  }
+  }
+}
+.my-skills{
+  .heading{
+    height: 20vh;
+    width: 100%;
+    border: solid 1px black;
+    h4{
+      text-align: center;
+      margin-top: 2rem;
+      color: #c44953;
+
+    }
+    h1{
+      text-align: center;
+      margin: 2vh auto;
+      font-size: 3rem;
+      color: white;
+    }
+  }
+  .skills{
+    height: 40vh;
+    width: 45%;
+    margin: auto;
+    border: solid 1px black;
+    .skill{
+      width: 80%;
+      margin: auto;
+      margin-top: 2vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p{
+        font-size: larger;
+        color: white;
+      }
+      
+    }
+    hr{
+      width: 80%;
+      border: none;
+      border-radius: 10px;
+      height: 7px;
+      margin: 1vh auto;
+      background: linear-gradient(to right,#c44953 97%,lavender 3%);
+    }
+    .bridel{
+      background: linear-gradient(to right,#c44953 99%,lavender 1%);
+    }
+    .eye{
+      background: linear-gradient(to right,#c44953 87%,lavender 13%);
+    }
+    .hair{
+      background: linear-gradient(to right,#c44953 95%,lavender 5%);
+    }
+  }
+}

@@ -1,0 +1,126 @@
+body{
+  background: black;
+}
+.main-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: black;
+  margin-top: 10vh;
+  .information {
+    height: 60%;
+    width: 45%;
+    border: solid 1px transparent;
+    h1 {
+      font-size: 70px;
+      color: white;
+    }
+    p {
+      text-align: center;
+    }
+    button {
+      height: 7vh;
+      width: 150px;
+      display: block;
+      margin: 4vh auto;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 1px 1px 5px white,
+      inset 1px 1px 5px white;
+      cursor: pointer;
+    }
+  }
+  .cards {
+    height: 90%;
+    width: 45%;
+  }
+}
+
+.box {
+  height: 500px;
+  width: 100%;
+  background: black;
+  border: solid 1px black;
+  .cat-btn{
+    height: 10vh;
+    width: 95%;
+    margin: auto;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    h1{
+      color: white;
+    }
+    button{
+      border: solid 2px pink;
+      color: white;
+      background-color: transparent;
+      font-size: medium;
+      border-radius: 10px;
+      height: 5vh;
+      width: 120px;
+      cursor: pointer;
+    }
+  }
+  .box-1 {
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+
+    scroll-behavior: smooth;
+    .box-2 {
+      min-width: 350px; 
+      height: 100%;
+      border-radius: 10px;
+      .display{
+        height: 150px;
+        width: 100%;
+        margin-top: 15.5rem;
+       background: linear-gradient(
+            0deg,
+            #000000 -1.12%,
+            rgba(0, 0, 0, 0.61) 40.45%,
+            rgba(0, 0, 0, 0.1) 97.13%
+          );
+          h2,p{
+            color: rgb(227, 223, 223);
+            margin: 1vh 1vw;
+          }
+          .booking{
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+            button{
+              height: 5vh;
+              border: solid 2px white;
+              border-radius: 10px;
+              background: transparent;
+              color: white;
+              padding: 5px 10px;
+              cursor: pointer;
+
+            }
+          }
+      }
+      
+      
+    }
+    
+  }
+  .box-1::-webkit-scrollbar{
+    display: none;
+  }
+  
+}
